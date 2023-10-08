@@ -1,0 +1,35 @@
+---
+title: "Heat Pump Knowledge Base"
+---
+
+::: {.content-hidden when-format="pptx"}
+
+# Tips for finding answers
+
+Our saved answers will continue growing as we respond to new questions and refine old responses. To find your answer quickly on the Answers tab, we recommend you:
+
+- Use the *control-F* function to search for a keyword
+
+- Browse the right side *navigation bar* for customer questions
+
+**Frequently used links**
+
+- Preferred Contractor Network: *https://www.mnashp.org/preferred-contractor-network-homeowners*
+
+- FAQ: *https://www.mnashp.org/homeownerfaq*
+
+- Cost of Heat Comparison: *https://www.mnashp.org/cost-of-heat-comparison*
+
+- Incentives and Financing: *https://www.mnashp.org/incentives-financing*
+
+:::
+
+{{< include source/_why_minisplit_with_ng.qmd >}}
+
+{{< include source/_setbacks.qmd >}}
+
+{{< include source/_sizing.qmd >}}
+
+{{< include source/_contractor.qmd >}}
+
+{{< include source/_AWHP.qmd >}}

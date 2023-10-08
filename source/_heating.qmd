@@ -1,0 +1,40 @@
+::: {.content-hidden when-format="pptx"}
+
+# Will a heat pump reduce my household carbon emissions?
+
+Yes. Over the typical lifespan of an HVAC system, a heat pump can significantly your household emissions. For simplicity, we will something that reduces carbon emissions "green".
+There are three factors why installing a heat pump is a greener choice than only using a traditional heating system (furnace or boiler):
+
+- Heat pump technology is up to three times more energy efficient than traditional heating systems.
+
+- The electric grid is quickly getting greener.
+
+- By contrast, traditional heating systems are unlikely to get any greener. 
+
+Electric utilities generate power from a mix of sources. Coal and natural gas have historically been the most common sources in Minnesota. Coal, especially, is very emissions intensive. The exciting change more recently is that electricity generation is getting cleaner. The reasons include:
+
+- We use less coal. Coal generation has been declining for years in favor of cheaper natural gas, which is less emissions intensive. 
+
+- We use a lot more renewables. Wind and solar generation has surged and is projected to continue growing. 
+
+- State legislation requires we continue decarbonizing the grid. The 100% bill, signed in 2023, mandates all Minnesota electric utilities provide carbon-free electricity by 2040.
+
+The combustion technology used in traditional heating systems is about as green as it can be. By contrast, a heat pump has the potential to significantly lower emissions from heating over time. 
+
+How green a heat pump is now, and the rate it get greener, depends on your electric utility. Some utilities have cleaner grids than others. Some have plans to decarbonize quicker to reach the carbon-free 2040 mandate. Despite the variations, over a typical heat pump's lifespan, it is the clear green choice.
+
+:::
+
+::: {.content-visible when-format="pptx"}
+
+# Will a heat pump reduce my household carbon emissions?
+
+Over the typical lifespan of an HVAC system, a heat pump can significantly reduce your household emissions. The reasons include:
+
+- Heat pump technology is up to three times more energy efficient than traditional heating systems
+
+- The electric grid is quickly getting greener
+
+- By contrast, traditional heating systems are unlikely to get any greener
+
+:::

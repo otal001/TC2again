@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "TC2again"
+  navbar:
+    left:
+      - href: 1Home.qmd
+        text: Home
+      - href: 2Answers.qmd
+        text: Answers
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+  pptx: default
+  docx: default
+  pdf: default
+
+
+

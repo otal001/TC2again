@@ -1,0 +1,48 @@
+::: {.content-hidden when-format="pptx"}
+
+# What heat pump size should I choose?
+
+Heat pumps come in sizes as measured by tons. The more tons a heat pump has, the more heating and cooling it can supply. However, more tons are not always better. The right sized heat pump for your home will do a better job keeping you comfortable at the lowest operational costs.
+
+A larger sized heat pump may make sense if you have:
+
+- A large home
+
+- A home that is not well insulated or air-sealed
+
+- A goal to use your heat pump for as much heating as possible
+
+A smaller sized heat pump may make sense if you have:
+
+- A smaller home
+
+- A home that is well insulated and air-sealed
+
+:::
+
+::: {.content-visible when-format="pptx"}
+
+# When is a larger heat pump size better?
+
+A larger sized heat pump may make sense if you have:
+
+- A large home
+
+- A home that is not well insulated or air-sealed
+
+- A goal to use your heat pump for as much heating as possible
+
+# When is a smaller heat pump size better?
+
+A smaller sized heat pump may make sense if you have:
+
+- A smaller home
+
+- A home that is well insulated and air-sealed
+
+:::
+
+
+
+
+

@@ -1,0 +1,21 @@
+::: {.content-hidden when-format="pptx"}
+
+# Which contractor should I work with?
+
+Getting a quote from a few quality contractors is the best way to get heat pump solutions for your home. [Visit our Preferred Contractor Network to connect with a qualified contractor in your area ](https://www.mnashp.org/preferred-contractor-network-homeowners).
+
+:::
+
+::: {.content-visible when-format="pptx"}
+
+# Which contractor should I work with?
+
+We recommend getting quotes from a few quality contractors who:
+
+- Are experienced with heat pump technology
+
+- Have demonstrated quality installations
+
+[Visit our Preferred Contractor Network](https://www.mnashp.org/preferred-contractor-network-homeowners) to connect with a qualified contractor in your area.
+
+:::

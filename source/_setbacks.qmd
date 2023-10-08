@@ -1,0 +1,21 @@
+::: {.content-hidden when-format="pptx"}
+
+# Can I set my thermostat back with a heat pump?
+
+Yes, you can set your thermostat back for periods of time with a heat pump. Heat pumps operate best when maintaining the same temperature for long periods of time. Setbacks within a few degrees have negligible effects on the heat pump's efficiency. This can be an option if like your house cooler at night and still want to maintain good energy efficiency.  
+
+An exception is if you are away from home for a few days or more. A larger setback will still save energy with a heat pump in these cases. 
+
+:::
+
+::: {.content-hidden when-format="pptx"}
+
+# Can I do setbacks with a heat pump?
+
+- Heat pumps operate best when maintaining the same temperature.
+
+- Setbacks within a few degrees have negligible effects on the heat pump’s efficiency.
+
+- Larger setbacks can save energy if you are gone for days.
+
+:::

@@ -1,0 +1,27 @@
+::: {.content-hidden when-format="pptx"}
+
+# Why should I get a minisplit if I have a natural gas boiler?
+
+There are three main reasons for installing minisplits if you have a natural gas boiler:
+
+- The first is cooling. A minisplit will provide much more efficient, quiet, and steady cooling than window AC’s.
+
+- The second is to cut emissions. A heat pump is significantly greener than a boiler over the lifespan of the equipment. Even using the heat pump into mild winter weather only will cut overall emissions.
+
+- The third is to extend the lifespan of your boiler. Traditional systems like boilers can sometimes cycle on and off during cool spring and fall weather. This strains the equipment. By contrast, minisplits typically excel at providing heat during cool spring and fall weather.
+
+:::
+
+::: {.content-visible when-format="pptx"}
+
+# Why should I get a minisplit if I have a natural gas boiler?
+
+Consider a minisplit if you want:
+
+- Great imprved cooling compared to a window AC
+
+- To significantly reduce emissions from heating
+
+- To extend the lifespan of your boiler
+
+:::

@@ -1,0 +1,31 @@
+::: {.content-hidden when-format="pptx"}
+
+# Which contractor should I talk to about AWHPs?
+
+Thank you for your question. We unfortunately don't have specific recommendations of companies who offer air-to-water heat pump installations. We recommend checking with the following sources for quotes or leads:
+
+1. A geothermal contractor
+
+2. A contractor who does both heating and plumbing
+
+3. Your local utility- some have contractor networks for customer referrals
+
+4. If you have a specific air-to-water heat pump model in mind, ask that manufacturer for their recommendations of local installers
+
+:::
+
+::: {.content-visible when-format="pptx"}
+
+# Which contractor should I talk to about AWHPs?
+
+We recommend checking with the following:
+
+- A geothermal contractor
+
+- A contractor who does both heating and plumbing
+
+- Your local utility- some maintain contractor networks
+
+- The manufacturer of your product of interest
+
+:::

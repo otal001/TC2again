@@ -9,7 +9,7 @@ format-links: false
 
 The knowledge base makes answering customer questions about ASHPs easier for CEE staff.
 
-Navigate to the Answers page to see saved answers and Other Format export links.
+Navigate to the Answers page to view all saved answers and Other Format export links.
 
 **ASHP Collaborative Scope**
 

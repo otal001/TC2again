@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>TC2again - Heat Pump Knowledge Base</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">TC2again</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./2Answers.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Answers</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tips-for-finding-answers" id="toc-tips-for-finding-answers" class="nav-link active" data-scroll-target="#tips-for-finding-answers">Tips for finding answers</a></li>
+  <li><a href="#why-should-i-get-a-minisplit-if-i-have-a-natural-gas-boiler" id="toc-why-should-i-get-a-minisplit-if-i-have-a-natural-gas-boiler" class="nav-link" data-scroll-target="#why-should-i-get-a-minisplit-if-i-have-a-natural-gas-boiler">Why should I get a minisplit if I have a natural gas boiler?</a></li>
+  <li><a href="#can-i-set-my-thermostat-back-with-a-heat-pump" id="toc-can-i-set-my-thermostat-back-with-a-heat-pump" class="nav-link" data-scroll-target="#can-i-set-my-thermostat-back-with-a-heat-pump">Can I set my thermostat back with a heat pump?</a></li>
+  <li><a href="#can-i-do-setbacks-with-a-heat-pump" id="toc-can-i-do-setbacks-with-a-heat-pump" class="nav-link" data-scroll-target="#can-i-do-setbacks-with-a-heat-pump">Can I do setbacks with a heat pump?</a></li>
+  <li><a href="#what-heat-pump-size-should-i-choose" id="toc-what-heat-pump-size-should-i-choose" class="nav-link" data-scroll-target="#what-heat-pump-size-should-i-choose">What heat pump size should I choose?</a></li>
+  <li><a href="#which-contractor-should-i-work-with" id="toc-which-contractor-should-i-work-with" class="nav-link" data-scroll-target="#which-contractor-should-i-work-with">Which contractor should I work with?</a></li>
+  <li><a href="#which-contractor-should-i-talk-to-about-awhps" id="toc-which-contractor-should-i-talk-to-about-awhps" class="nav-link" data-scroll-target="#which-contractor-should-i-talk-to-about-awhps">Which contractor should I talk to about AWHPs?</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="2Answers.pptx"><i class="bi bi-file-slides"></i>Powerpoint</a></li><li><a href="2Answers.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="2Answers.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Heat Pump Knowledge Base</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="tips-for-finding-answers" class="level1">
+<h1>Tips for finding answers</h1>
+<p>Our saved answers will continue growing as we respond to new questions and refine old responses. To find your answer quickly on the Answers tab, we recommend you:</p>
+<ul>
+<li><p>Use the <em>control-F</em> function to search for a keyword</p></li>
+<li><p>Browse the right side <em>navigation bar</em> for customer questions</p></li>
+</ul>
+<p><strong>Frequently used links</strong></p>
+<ul>
+<li><p>Preferred Contractor Network: <em>https://www.mnashp.org/preferred-contractor-network-homeowners</em></p></li>
+<li><p>FAQ: <em>https://www.mnashp.org/homeownerfaq</em></p></li>
+<li><p>Cost of Heat Comparison: <em>https://www.mnashp.org/cost-of-heat-comparison</em></p></li>
+<li><p>Incentives and Financing: <em>https://www.mnashp.org/incentives-financing</em></p></li>
+</ul>
+</section>
+<section id="why-should-i-get-a-minisplit-if-i-have-a-natural-gas-boiler" class="level1">
+<h1>Why should I get a minisplit if I have a natural gas boiler?</h1>
+<p>There are three main reasons for installing minisplits if you have a natural gas boiler:</p>
+<ul>
+<li><p>The first is cooling. A minisplit will provide much more efficient, quiet, and steady cooling than window AC’s.</p></li>
+<li><p>The second is to cut emissions. A heat pump is significantly greener than a boiler over the lifespan of the equipment. Even using the heat pump into mild winter weather only will cut overall emissions.</p></li>
+<li><p>The third is to extend the lifespan of your boiler. Traditional systems like boilers can sometimes cycle on and off during cool spring and fall weather. This strains the equipment. By contrast, minisplits typically excel at providing heat during cool spring and fall weather.</p></li>
+</ul>
+</section>
+<section id="can-i-set-my-thermostat-back-with-a-heat-pump" class="level1">
+<h1>Can I set my thermostat back with a heat pump?</h1>
+<p>Yes, you can set your thermostat back for periods of time with a heat pump. Heat pumps operate best when maintaining the same temperature for long periods of time. Setbacks within a few degrees have negligible effects on the heat pump’s efficiency. This can be an option if like your house cooler at night and still want to maintain good energy efficiency.</p>
+<p>An exception is if you are away from home for a few days or more. A larger setback will still save energy with a heat pump in these cases.</p>
+</section>
+<section id="can-i-do-setbacks-with-a-heat-pump" class="level1">
+<h1>Can I do setbacks with a heat pump?</h1>
+<ul>
+<li><p>Heat pumps operate best when maintaining the same temperature.</p></li>
+<li><p>Setbacks within a few degrees have negligible effects on the heat pump’s efficiency.</p></li>
+<li><p>Larger setbacks can save energy if you are gone for days.</p></li>
+</ul>
+</section>
+<section id="what-heat-pump-size-should-i-choose" class="level1">
+<h1>What heat pump size should I choose?</h1>
+<p>Heat pumps come in sizes as measured by tons. The more tons a heat pump has, the more heating and cooling it can supply. However, more tons are not always better. The right sized heat pump for your home will do a better job keeping you comfortable at the lowest operational costs.</p>
+<p>A larger sized heat pump may make sense if you have:</p>
+<ul>
+<li><p>A large home</p></li>
+<li><p>A home that is not well insulated or air-sealed</p></li>
+<li><p>A goal to use your heat pump for as much heating as possible</p></li>
+</ul>
+<p>A smaller sized heat pump may make sense if you have:</p>
+<ul>
+<li><p>A smaller home</p></li>
+<li><p>A home that is well insulated and air-sealed</p></li>
+</ul>
+</section>
+<section id="which-contractor-should-i-work-with" class="level1">
+<h1>Which contractor should I work with?</h1>
+<p>Getting a quote from a few quality contractors is the best way to get heat pump solutions for your home. <a href="https://www.mnashp.org/preferred-contractor-network-homeowners">Visit our Preferred Contractor Network to connect with a qualified contractor in your area</a>.</p>
+</section>
+<section id="which-contractor-should-i-talk-to-about-awhps" class="level1">
+<h1>Which contractor should I talk to about AWHPs?</h1>
+<p>Thank you for your question. We unfortunately don’t have specific recommendations of companies who offer air-to-water heat pump installations. We recommend checking with the following sources for quotes or leads:</p>
+<ol type="1">
+<li><p>A geothermal contractor</p></li>
+<li><p>A contractor who does both heating and plumbing</p></li>
+<li><p>Your local utility- some have contractor networks for customer referrals</p></li>
+<li><p>If you have a specific air-to-water heat pump model in mind, ask that manufacturer for their recommendations of local installers</p></li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,22 +1,19 @@
 ---
 title: "Heat Pump Knowledge Base"
+toc: false
+format-links: false
 ---
 
 ::: {.content-hidden when-format="pptx"}
-
 # Introduction to the knowledge base
 
-The knowledge base makes answering customer questions about ASHPs easier for CEE staff. 
+The knowledge base makes answering customer questions about ASHPs easier for CEE staff.
+
+Navigate to the Answers page to view all saved answers and Other Format export links.
 
 **ASHP Collaborative Scope**
 
 The ASHP Collaborative focuses on ASHP technology and application for space heating in existing, single-family homes.
-
-Electrifying our residential heating continues to be one of the best opportunities we have to decarbonize. 
-
-{{< include source/_chart.R >}}
-
-
 
 :::
 
@@ -24,7 +21,7 @@ Electrifying our residential heating continues to be one of the best opportuniti
 
 # Introduction to the knowledge base
 
-The knowledge base makes answering customer questions about ASHPs easier for CEE staff. 
+The knowledge base makes answering customer questions about ASHPs easier for CEE staff.
 
 # ASHP Collaborative Scope
 

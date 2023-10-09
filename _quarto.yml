@@ -5,7 +5,7 @@ website:
   title: "TC2again"
   navbar:
     left:
-      - href: 1Home.qmd
+      - href: index.qmd
         text: Home
       - href: 2Answers.qmd
         text: Answers
